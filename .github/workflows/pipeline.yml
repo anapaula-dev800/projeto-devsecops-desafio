@@ -1,3 +1,5 @@
+# Testando execução da pipeline
+
 name: 🔐 Pipeline DevSecOps
 
 on:
