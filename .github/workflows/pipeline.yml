@@ -47,7 +47,7 @@ jobs:
       - name: 🛡️ Static Analysis with Semgrep
         uses: returntocorp/semgrep-action@v1
         with:
-          config: auto
+         config: auto
 
         
 
