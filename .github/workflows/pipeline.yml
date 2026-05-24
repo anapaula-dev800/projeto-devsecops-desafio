@@ -40,12 +40,18 @@ jobs:
 
       # ❌ PASSO 4: IMPLEMENTE AQUI — SAST com Semgrep
       # Dica: instale com "pip install semgrep" e rode "semgrep scan --config auto --error src/"
-      - name: 🛡️ Static Analysis with Semgrep
-        uses: returntocorp/semgrep-action@v1
+      - name: 🛡️ SAST com Semgrep (CLI)
+        run: |
+          python -m pip install --upgrade pip
+          pip install semgrep
+          semgrep scan --config auto --error src/ --json --output semgrep-report.json
+      - name: Upload Semgrep report
+        if: always()
+        uses: actions/upload-artifact@v4
         with:
-         config: auto
+          name: semgrep-report
+          path: semgrep-report.json
 
-        
 
       # ❌ PASSO 5: IMPLEMENTE AQUI — SCA com Grype
       # Dica: instale com "curl -sSfL https://raw.githubusercontent.com/anchore/grype/main/install.sh | sh -s -- -b /usr/local/bin"
