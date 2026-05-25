@@ -59,5 +59,4 @@ A pipeline automatiza **build → verificações de segurança → deploy**. Cad
 ---
 
 ## URL de Produção
-> [Adicione aqui o link do GitHub Pages após o deploy.](https://anapaula-dev800.github.io/projeto-devsecops-desafio/
-)
+> https://anapaula-dev800.github.io/projeto-devsecops-desafio/
