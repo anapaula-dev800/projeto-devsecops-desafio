@@ -22,8 +22,6 @@ A pipeline está **incompleta**. Os steps de segurança precisam ser implementad
 - [ ] Deploy com **GitHub Pages**
 
 ## Como a pipeline funciona
-> **Substitua este bloco pela sua explicação após implementar a pipeline.**
-> ### Como a pipeline funciona
 
 A pipeline automatiza **build → verificações de segurança → deploy**. Cada etapa de segurança é executada no CI e projetada para **falhar o job** quando encontra problemas, impedindo que código inseguro chegue à produção.
 
