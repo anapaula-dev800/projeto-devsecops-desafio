@@ -58,11 +58,6 @@ A pipeline automatiza **build → verificações de segurança → deploy**. Cad
 
 ---
 
-### URL de Produção
-**Adicione aqui o link do GitHub Pages após o deploy:**  
-`https://<seu-usuario>.github.io/<seu-repositorio>/`
-
-> **Onde encontrar a URL real:** após um deploy bem‑sucedido, a URL aparece em **Actions → execução do workflow → step Deploy em Produção** (campo `steps.deployment.outputs.page_url`) e também em **Settings → Pages** do repositório. Substitua o placeholder acima pela URL exibida pelo deploy.
-
 ## URL de Produção
-> Adicione aqui o link do GitHub Pages após o deploy.
+> [Adicione aqui o link do GitHub Pages após o deploy.](https://anapaula-dev800.github.io/projeto-devsecops-desafio/
+)
